@@ -1,6 +1,4 @@
 # cs5262
-The goal of this project is to see if various features of an individual's lifestyle can accurately predict their state of mental well-being. This could be used in a business context to decide what kind of target audience to advertise a new mental-health product (such as a software, book, etc), by insurance companies to adjust rates based on mental health status, or by medical professionals to determine whether programs can be tailored to suit patients given these results to be more effective overall.
-
 The goal of this analysis will be to create profiles that target certain aspects of a lifestyle that are shown to predict mental well-being overall. These profiles can drive the product portfolio of the advertisting company.
 For the purpose of this assignment, we will assume that our advertising service charges $1.50 per person advertised to, and that our revenue model generates an average of $20 per customer that signs up.
 
