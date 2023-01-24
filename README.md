@@ -4,7 +4,9 @@ For the purpose of this assignment, we will assume that our advertising service 
 https://www.shopify.com/blog/facebook-ads-cost
 https://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost.
 Taking up ad-space on the internet will cost us money as well. According to this article from TopDraw https://www.topdraw.com/insights/is-online-advertising-expensive/, online advertising can cost anywhere from $3-$10 per 1000 people reached. To make calculations easier, we will assume $5/1000 people, or $.005 per person.
+
 The net value of our proposed model can be determined by analyzing the effect of the 4 different metrics in a binary classification Confusion Matrix.
+
     1. True positive: A true positive in this scenario would mean we advertised to a customer, and they decided to click on the advertisement. The net revenue of a true positive would be equal to `(revenue of 1 click) - (cost of advertising to 1 person)` = `$1.50 - $.005` = `$1.495`.
     2. True negative: A true negative would mean we decided to not advertise, and the user wouldn't have been interested anyways. This is obviously good for us, as we avoided wasting money on advertising. However, it doesn't actually generate any net positive or negative revenue.
     3. False positive: A false positive would mean we advertised to a customer, and they did not engage. This results in a net loss of the advertising cost, `-$0.005`.
