@@ -13,8 +13,10 @@ The net value of our proposed model can be determined by analyzing the effect of
     4. False negative: A false negative would mean we didn't advertise to a customer, but they would have engaged if we did. We definitely want to avoid this to maximize revenue, but since it results in no spending on our end, it won't actually affect the net revenue of our model.
 
 The final evaluation of this model will be determined by its net impact on the business's revenue per sample of population ran on. This can be evaluated by the formula 
+
 `(((net revenue of 1 TP) * (# of TPs)) + ((net revenue of 1 FP) * (# of false positives))) / (total # data points)` =  
 `(($1.495 * # of TP) - ($.005 * # of FP))/(total # data points)`.
+
  Models will be evaluated by this formula on a holdout set of data to determine their value to the business.
 
 Note that False and True Negatives will *indirectly* affect the model value using this method, since we divide by the total # of data points fed to the model. A False Negative will mean missed revenue per population, which will actually drive down the score for the final model evaluation.
