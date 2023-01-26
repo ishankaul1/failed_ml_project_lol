@@ -1,23 +1,23 @@
-Feature,Description,,,,,
-FRUITS_VEGGIES,How many fruits or vegetables the person eats in 1 day on average.,,,,,
-DAILY_STRESS,1-5 self-evaluation of stress experienced on an average day.,,,,,
-PLACES_VISITED,"How many new places (including museums, parks, etc.) that the individual visits in a year.",,,,,
-CORE_CIRCLE,How many people the individual considers close friends.,,,,,
-SUPPORTING_OTHERS,"Over an average year, how many people does the individual help to achieve a better life?",,,,,
-SOCIAL_NETWORK,How many people the individual interacts with on an average day.,,,,,
-ACHIEVEMENTS,The number of remarkable achievements the individual is proud of .,,,,,
-DONATION,"Number of times per year the individual participates in financial donation, volunteering, etc.",,,,,
-BMI_RANGE,Whether the individual’s BMI is above or below 25,,,,,
-TODO_COMPLETION,"On a scale of 1-10, how well does the individual complete their weekly to-do list",,,,,
-Flow,"In a typical day, how many hours does the individual experience ‘flow’",,,,,
-DAILY_STEPS,How many thousands of steps does the individual walk per day,,,,,
-LIVE_VISION,How many years ahead the individual has a clear life path for,,,,,
-SLEEP_HOURS,How many hours the individual sleeps per night on average,,,,,
-LOST_VACATION,Number of days of vacation time the individual loses per year,,,,,
-DAILY_SHOUTING,How often does the individual shout at someone in a typical week?,,,,,
-SUFFICIENT_INCOME,Whether the individual's income is sufficient to cover life expenses,,,,,
-PERSONAL_AWARDS,Number of awards or recognitions received in lifetime.,,,,,
-TIME_FOR_PASSIONS,How many hours in a day spent doing what they are passionate about,,,,,
-WEEKLY_MEDITATION,How many hours in a week the individual can self-reflect,,,,,
-AGE,"Age ranges - 21 to 35, 36 to 50, or other",,,,,
-Gender,Male or Female,,,,,
+Feature,Description
+FRUITS_VEGGIES,How many fruits or vegetables the person eats in 1 day on average. Numerical value up to 5; 5 means 5 or more.
+DAILY_STRESS,"Self-evaluation of stress experienced on an average day. Numeric value, scored 0-5 where 0 is not much, 5 is a lot. Can be due to physical/home environment, work, job loss personal relationships, etc."
+PLACES_VISITED,"How many new places (including museums, parks, etc.) that the individual visits in a year. Integer value, 0-10. 10 means 10 or more."
+CORE_CIRCLE,"How many people the individual considers close friends or family in their core circle, who they can depend on for long-term unconditional support. Integer value, 1-10 where 10 means 10 or more."
+SUPPORTING_OTHERS,"Over an average year, how many people does the individual help to achieve a better life? This is direct person-to-person support. Integer value, 0-10 where 10 means 10 ore more."
+SOCIAL_NETWORK,"How many people the individual interacts with on an average day. Full social interactions and dialogues. Is an average of workdays and the weekend. Integer number 0-10, 10 means 10 or more."
+ACHIEVEMENTS,"The number of remarkable achievements the individual is proud of in the past year. Can be related to career, academics, or personal life/hobbies. Integer number 0-10, 10 means 10 or more."
+DONATION,"Number of times per year the individual participates in financial donation, volunteering, or supporting a social cause. Integer number 0-5, 5 means 5 or more."
+BMI_RANGE,"Whether the individual’s BMI is above or below 25. Binary value, 1 for under 25, 2 for over."
+TODO_COMPLETION,"How well does the individual complete their weekly to-do list? Integer scale 0-10. 0 means not at all, 10 means very well."
+Flow,"In a typical day, how many hours does the individual experience 'flow state'. Flow state is defined to be a feeling of energized focus & full involvement when immersed in performing an activity. Integer scale 0-10, where 10 means 10 or more hours"
+DAILY_STEPS,"How many thousands of steps does the individual walk per day. Integer scale 1-10. 1 means <1000, 10 means >10000 steps."
+LIVE_VISION,"How many years ahead the individual has a clear life path for. Could be illustrated in a vision board, journal, etc. Integer scale 1-10. 0 means no life vision, 10 means 10 years or more."
+SLEEP_HOURS,"How many hours the individual sleeps per night on average throughout an entire week (including weekends). Integer scale, 1-10 for each hour per night. 10 means 10 or more."
+LOST_VACATION,"Number of days of vacation time the individual does not use per year for whatever reason. Integer scale 0-10, 10 means 10 or more."
+DAILY_SHOUTING,"How often does the individual shout or sulk  (express active or passive negative emotions) at someone in a typical week? Integer scale 0-10, 10 means 10 times per week or more."
+SUFFICIENT_INCOME,"Whether the individual's income is sufficient to cover life expenses (housing, food, health care, education, etc.). Binary classifier - 1 means not sufficient, 2 means sufficient."
+PERSONAL_AWARDS,"Number of awards or recognitions received in lifetime.  Includes diplomas/degrees, accreditations, published books, presentations at conference, medals, etc. Integer scale 0-10, 10 means 10 or more."
+TIME_FOR_PASSIONS,"How many hours in a day spent doing what they are passionate about, or contributing to a greater cause.. Integer scale 0-10, 10 means 10 or more hours."
+WEEKLY_MEDITATION,"How many times in a week the individual can think about themselves. Includes praying, relaxation activities, fitness, walking, lunch breaks, etc. 0 means none, 10 means 10 times per week or more. Integer scale 0-10."
+AGE,"Age ranges (categorical).  21 to 35, 36 to 50, or other"
+Gender,Male or Female. Binary and categorical
