@@ -1,6 +1,6 @@
 Feature,Description
 Timestamp,Date when the survey was collected. 
-FRUITS_VEGGIES,How many fruits or vegetables the person eats in 1 day on average. Numerical value up to 5; 5 means 5 or more.
+FRUITS_VEGGIES,How many fruits or vegetables the person eats in 1 day on average. Numeric value up to 5; 5 means 5 or more.
 DAILY_STRESS,"Self-evaluation of stress experienced on an average day. Numeric value, scored 0-5 where 0 is not much, 5 is a lot. Can be due to physical/home environment, work, job loss personal relationships, etc."
 PLACES_VISITED,"How many new places (including museums, parks, etc.) that the individual visits in a year. Integer value, 0-10. 10 means 10 or more."
 CORE_CIRCLE,"How many people the individual considers close friends or family in their core circle, who they can depend on for long-term unconditional support. Integer value, 1-10 where 10 means 10 or more."
