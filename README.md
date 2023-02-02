@@ -3,7 +3,7 @@ The goal of this analysis will be to create profiles of certain aspects of an in
 For the purpose of this assignment, we will assume that our advertising service charges customers $1.50 per click. These numbers are rough estimates based on Facebook's $0.94 and Google's ~$3 'Cost-per-click' models.
 https://www.shopify.com/blog/facebook-ads-cost
 https://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost.
-Taking up ad-space on the internet will cost us money as well. According to this article from TopDraw https://www.topdraw.com/insights/is-online-advertising-expensive/, online advertising can cost anywhere from $3-$10 per 1000 people reached. To make calculations easier, we will assume $5/1000 people, or $.005 per person.
+Taking up ad-space on the internet will cost us money as well. According to this article from TopDraw https://www.topdraw.com/insights/is-online-advertising-expensive/, online advertising can cost anywhere from $3 to $10 per 1000 people reached. To make calculations easier, we will assume $5/1000 people, or $.005 per person.
 
 The net value of our proposed model can be determined by analyzing the effect of the 4 different metrics in a binary classification Confusion Matrix.
 
