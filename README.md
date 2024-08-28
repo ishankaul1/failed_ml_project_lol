@@ -1,4 +1,11 @@
-# cs5262
+# Analysis of Various Lifestyle Features to Predict "Mental Health"
+
+I worked on this project for CS 5262 (Machine Learning) during my Master's degree at Vanderbilt University.
+
+Most of the important stuff (model training & analysis) is in "Assignment6.ipynb"
+
+Project proposal/description:
+
 The goal of this analysis will be to create profiles of certain aspects of an individual's lifestyle to predict overall mental well-being. These profiles could drive the product portfolio of an advertising company, allowing them to market mental health and lifestyle improvement products to potential customers that may need them.
 For the purpose of this assignment, we will assume that our advertising service charges customers $1.50 per click. These numbers are rough estimates based on Facebook's $0.94 and Google's ~$3 'Cost-per-click' models.
 https://www.shopify.com/blog/facebook-ads-cost
